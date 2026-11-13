@@ -1,34 +1,63 @@
-# Awesome-Developer-Rest-API-Webhook-Service
+<div align="center">
 
-## Top Developer REST API & Webhook Service Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Developer REST API and Webhook Service Banner" width="100%" />
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on API Gateway Management, Inbound Webhook Ingress & Outbound Delivery Infrastructure*  
-**Last updated: March 2026**
+# 🚀 Awesome Developer REST API & Webhook Service
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Developer REST API & Webhook Services**. These tools provide the infrastructure to expose REST APIs securely, receive and process inbound webhooks reliably, and deliver outbound webhooks to customer endpoints—covering API gateways, webhook ingress proxies, and delivery engines that handle retries, signatures, and observability.
+### 🌐 Curated List of Production API Gateways, Inbound Webhook Ingress & Outbound Delivery Infrastructure
 
-**Examples** include BrowserStack REST API & Webhooks, Postman, Kong Gateway, AWS API Gateway, Apigee, Tyk, Hookdeck, Svix, Hook0, and Outpost.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service?style=flat-square&logo=github&color=gold" alt="GitHub Repo Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service?style=flat-square" alt="Open Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Open-source emphasis**: This section highlights active projects for self-hosted API gateways, open-source webhook infrastructure, and community-driven delivery engines—ideal for organizations seeking data sovereignty and predictable costs over per-event or per-gateway SaaS billing.
+<p align="center">
+  <b>A comprehensive directory comparing cloud-hosted SaaS solutions and high-performance open-source tools for API lifecycle management, webhook proxies, HMAC verification, retry queues, and event-driven architecture.</b>
+</p>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+*Last updated: March 2026*
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+</div>
 
-The global API management and developer integration infrastructure market is estimated at **$7B–$9B in 2025–2026** (scaling past $10B by 2027 at ~18–22% CAGR), driven by microservices expansion, event-driven architectures (EDA), and AI agent callback workflows. The sector exhibits **moderate concentration with a bifurcated landscape**: core enterprise API gateway routing is dominated by hyperscalers and established software giants (AWS, Google Cloud/Apigee, Salesforce/MuleSoft, Kong), while dedicated webhook ingress/delivery infrastructure remains a fast-consolidating, fragmented niche converging around modern delivery reliability, idempotency, and RFC 9421 signature standards.
+## 📖 Table of Contents
+- [📌 Overview & Scope](#-overview--scope)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-## SaaS/Hosted Platforms
+---
 
-| Product | Company Size (Revenue / Valuation) | Starting Pricing | Free Tier / Trial Limits | Description |
-|---------|------------------------------------|------------------|--------------------------|-------------|
+## 📌 Overview & Scope
+
+Modern engineering teams building microservices, SaaS platforms, and event-driven architectures require rock-solid infrastructure to:
+1. **Expose and Manage REST APIs**: Route traffic, manage quotas, authenticate via OAuth2/JWT/API keys, and aggregate backends.
+2. **Ingest Inbound Webhooks**: Securely receive third-party events (Stripe, GitHub, Shopify), verify cryptographic HMAC / RFC 9421 signatures, buffer bursts, and prevent cascading service outages.
+3. **Dispatch Outbound Webhooks**: Provide customer-facing event delivery with automated exponential backoff, dead-letter queues (DLQ), idempotency guarantees, and white-labeled event tracking dashboards.
+
+This repository tracks category-leading SaaS solutions with transparent pricing breakdowns alongside battle-tested open-source platforms for self-hosted data sovereignty.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global API management and developer integration infrastructure market is estimated at **$7B–$9B in 2025–2026** (scaling past $10B by 2027 at ~18–22% CAGR), propelled by microservices expansion, event-driven architectures (EDA), and emerging AI agent callback workflows. The sector exhibits **moderate concentration with a bifurcated landscape**: core enterprise API gateway routing is dominated by hyperscalers and established software giants (AWS, Google Cloud/Apigee, Salesforce/MuleSoft, Kong), while dedicated webhook ingress/delivery infrastructure remains a fast-consolidating, fragmented niche converging around modern delivery reliability, idempotency, and RFC 9421 signature standards.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+| 🏢 Product | 📈 Company Size (Revenue / Valuation) | 💵 Starting Pricing | 🎁 Free Tier / Trial Limits | 📝 Description |
+|---|---|---|---|---|
 | **[AWS API Gateway](https://aws.amazon.com/api-gateway/)** | ~$105B+ annual revenue run-rate (AWS parent Amazon ~$2.3T market cap) | HTTP API: $1.00/million calls; REST API: $3.50/million calls | **Permanent Free Tier (first 12 months for new AWS accounts)**: 1,000,000 API calls per month for REST and HTTP APIs combined; 1,000,000 WebSocket messages | Fully managed gateway for REST, HTTP, and WebSocket APIs with pay-per-request billing. Requires custom Lambda authorizers for HMAC signature validation. |
 | **[Apigee (Google Cloud)](https://cloud.google.com/apigee)** | ~$40B+ annual revenue run-rate (Google Cloud / Alphabet ~$2.2T market cap) | Pay-as-you-go: Base environment ~$365/month/region + $20/million API proxy calls | **Evaluation Plan**: Free 60-day trial with full API proxy feature access for non-production workloads (auto-expires after 60 days) | Full-lifecycle enterprise API management platform featuring API gateway, developer portal, API monetization, and advanced analytics. |
 | **[MuleSoft Anypoint](https://www.mulesoft.com/)** | ~$2.5B+ annual revenue (Salesforce subsidiary; Salesforce ~$300B market cap) | Base packages start at $2,000/month ($24,000/year billed annually); Pre-Commit pools start at $50,000/year | **30-Day Free Trial**: 30 days access to Anypoint Platform, design center, and runtime manager with sandbox compute limits | Enterprise iPaaS and API lifecycle management platform for enterprise integration, unified API design, governance, and gateway orchestration. |
@@ -38,10 +67,12 @@ The global API management and developer integration infrastructure market is est
 | **[Tyk Cloud / Hybrid](https://tyk.io/)** | ~$10M–$20M ARR (Bootstrapped / Venture-backed SME) | Managed Cloud starting at $600/month; Commercial Self-Managed starting tiers quote-based | **Self-Managed Open Source**: Tyk Gateway (MPL 2.0) is free forever; Commercial management dashboard & portal offer a **14-day evaluation license** upon request | Lightweight, open-source and enterprise API management platform and gateway built in Go, offering developer portal and hybrid deployment models. |
 | **[Hookdeck](https://hookdeck.com/)** | ~$5M–$10M venture-funded seed/Series A startup | Base paid plan starts at $39/month (includes 100,000 events/month, 7-day retention) | **Developer Free Tier (Forever)**: 10,000 events/month, 3-day event retention, 5 destinations, and CLI tunnel access | Dedicated inbound webhook and event gateway offering traffic ingestion, signature verification, queuing, rate limiting, and failure replays. |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
+## 🛠️ Open-Source GitHub Projects
+
+| 📦 Project | ⭐ Star Badge | 📝 Description |
+|---|---|---|
 | **[Traefik](https://github.com/traefik/traefik)** | [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) | Modern HTTP reverse proxy and ingress controller written in Go, featuring automatic service discovery, dynamic configuration, metrics, and TLS termination. |
 | **[Kong Gateway](https://github.com/Kong/kong)** | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | The cloud-native API gateway built on OpenResty/Nginx and Lua, offering a vast plugin ecosystem for rate limiting, JWT/OAuth authentication, transformations, and observability. |
 | **[Envoy](https://github.com/envoyproxy/envoy)** | [![Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers) | High-performance C++ distributed service and edge proxy designed for cloud-native microservices architectures, service meshes, and L7 routing. |
@@ -57,22 +88,47 @@ The global API management and developer integration infrastructure market is est
 | **[smee-client](https://github.com/probot/smee-client)** | [![Stars](https://img.shields.io/github/stars/probot/smee-client?style=social&color=white)](https://github.com/probot/smee-client/stargazers) | Local development client for smee.io that tunnels webhook payloads from public webhook providers to a local development server via Server-Sent Events (SSE). |
 | **[good-webhooks](https://github.com/pplytas/good-webhooks)** | [![Stars](https://img.shields.io/github/stars/pplytas/good-webhooks?style=social&color=white)](https://github.com/pplytas/good-webhooks/stargazers) | Outbox-pattern transactional webhook library for Node.js and PostgreSQL. Guarantees transactional event dispatch, HMAC signing, and exponential backoff retries without requiring external message queues. |
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format and guidelines).
-3. Include: name, link, 1–2 sentence description, pricing/limits if SaaS, star badge if open source.
-4. Submit PR with a short explanation.
+## 📈 Star History
 
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- API gateways and webhook services handle authentication tokens and sensitive event payloads; enforce least-privilege policies, HMAC signature validation, and idempotent processing (most providers guarantee "at-least-once" delivery—duplicates are normal, not edge cases).
-- **API Gateways vs. Webhook Ingress**: Gateways handle routing and auth but lack native HMAC validation, durable queueing, exponential backoff, dead-letter queues, and replay UIs out-of-the-box. Dedicated webhook infrastructure (such as Outpost, Convoy, Svix, or Hookdeck) bridges this gap.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Developer-Rest-API-Webhook-Service&type=date&legend=top-left)
 
 ---
 
-**Made for API engineers, platform teams, and developers building reliable webhook infrastructure.**  
-Let's make REST API and webhook services more open, reliable, and developer-friendly.
+## 🤝 How to Contribute
+
+Contributions are warmly encouraged! To add or update an API gateway or webhook service:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a new feature branch (`git checkout -b feat/add-service-name`).
+3. ✍️ Add/update entries in [README.md](README.md) following the existing tabular schema (including pricing & limits for SaaS, or star badges for open-source tools).
+4. 📬 Submit a **Pull Request** detailing why the tool is a valuable addition.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using this curated ecosystem! Maintaining and researching up-to-date pricing models, active repositories, and architectural standards takes dedicated effort. 
+
+If you found this list valuable:
+- ⭐ **Star** this repository on GitHub to help other engineers discover it.
+- 🍴 **Fork** it to keep a personal reference.
+- 📢 **Share** it on Twitter/X, LinkedIn, or developer communities.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+[![Sponsor Ishan Dutta](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** directory provided for informational purposes only; it does not constitute an official endorsement of any vendor or project.
+- **Security & Compliance**: API gateways and webhook endpoints process authorization credentials, cryptographic signing secrets, and sensitive customer event payloads. Always enforce least-privilege policies, rotate HMAC secrets, and design downstream consumers for idempotency (at-least-once delivery semantics).
+- **API Gateways vs. Webhook Ingress**: Gateways handle routing and authentication but lack native HMAC signature validation, durable buffering queues, automated exponential retries, and dead-letter replay dashboards out-of-the-box. Dedicated webhook layers (such as Outpost, Convoy, Svix, or Hookdeck) bridge this gap.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for API engineers, platform architects, and developers building reliable webhook infrastructure.</b>
+</div>
