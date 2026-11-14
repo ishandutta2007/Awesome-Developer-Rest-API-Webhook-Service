@@ -159,7 +159,7 @@
   <!-- Main Hero Title & Foreground Texts -->
   <g text-anchor="middle">
     <!-- Super Title / Category Header -->
-    <text x="600" y="160" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="3" text-transform="uppercase">
+    <text x="600" y="160" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="3">
       CURATED DEVELOPER ECOSYSTEM
     </text>
 
@@ -175,7 +175,7 @@
 
     <!-- Highlights Bar -->
     <text x="600" y="315" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500">
-      ⚡ Low Latency Routing &nbsp;|&nbsp; 🔐 HMAC &amp; RFC 9421 Verification &nbsp;|&nbsp; 🔄 Exponential Retries &amp; DLQ &nbsp;|&nbsp; 📊 Transparent SaaS &amp; OSS
+      Low Latency Routing &#183; HMAC &amp; RFC 9421 Verification &#183; Exponential Retries &amp; DLQ &#183; Transparent SaaS &amp; OSS
     </text>
   </g>
 
