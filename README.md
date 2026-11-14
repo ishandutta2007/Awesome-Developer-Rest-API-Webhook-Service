@@ -71,7 +71,7 @@ The global API management and developer integration infrastructure market is est
 
 ## 🛠️ Open-Source GitHub Projects
 
-| 📦 Project | ⭐ Star Badge | 📝 Description |
+| 📦 Project | ⭐ Stars_Badge | 📝 Description |
 |---|---|---|
 | **[Traefik](https://github.com/traefik/traefik)** | [![Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) | Modern HTTP reverse proxy and ingress controller written in Go, featuring automatic service discovery, dynamic configuration, metrics, and TLS termination. |
 | **[Kong Gateway](https://github.com/Kong/kong)** | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | The cloud-native API gateway built on OpenResty/Nginx and Lua, offering a vast plugin ecosystem for rate limiting, JWT/OAuth authentication, transformations, and observability. |
@@ -102,7 +102,7 @@ Contributions are warmly encouraged! To add or update an API gateway or webhook 
 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create a new feature branch (`git checkout -b feat/add-service-name`).
-3. ✍️ Add/update entries in [README.md](README.md) following the existing tabular schema (including pricing & limits for SaaS, or star badges for open-source tools).
+3. ✍️ Add/update entries in [README.md](README.md) following the existing tabular schema (including pricing & limits for SaaS, or Stars_Badges for open-source tools).
 4. 📬 Submit a **Pull Request** detailing why the tool is a valuable addition.
 
 ---
